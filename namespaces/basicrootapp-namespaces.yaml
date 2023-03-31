@@ -6,7 +6,7 @@ metadata:
   name: basicrootapp-build
   labels:
     app : basicrootapp
-    team: group:default/markusjnagel
+    team: group:default/devgroup1
     build-namespace: basicrootapp-build
     size: small
     environment: build
@@ -20,7 +20,7 @@ metadata:
   name: basicrootapp-dev
   labels:
     app : basicrootapp
-    team: group:default/markusjnagel
+    team: group:default/devgroup1
     build-namespace: basicrootapp-build
     size: small
     environment: dev
@@ -34,7 +34,7 @@ metadata:
   name: basicrootapp-qa
   labels:
     app : basicrootapp
-    team: group:default/markusjnagel
+    team: group:default/devgroup1
     build-namespace: basicrootapp-build
     size: small
     environment: qa
@@ -48,7 +48,7 @@ metadata:
   name: basicrootapp-prod
   labels:
     app : basicrootapp
-    team: group:default/markusjnagel
+    team: group:default/devgroup1
     build-namespace: basicrootapp-build
     size: small
     environment: prod
