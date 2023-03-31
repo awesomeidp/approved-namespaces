@@ -2,9 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: basicrootapp
-  description: dsafads
+  description: lkjlkjlkj
   labels:
     size: small
     environments: build-dev-qa-prod
 spec:
-  owner: group:default/markusjnagel
+  owner: group:default/devgroup1
