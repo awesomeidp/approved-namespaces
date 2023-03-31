@@ -1,0 +1,56 @@
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: yetanotherapp-build
+  labels:
+    app : yetanotherapp
+    team: group:default/devgroup1
+    build-namespace: yetanotherapp-build
+    size: small
+    environment: build
+    goldilocks.fairwinds.com/enabled: "true"
+    argocd.argoproj.io/managed-by: yetanotherapp-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: yetanotherapp-dev
+  labels:
+    app : yetanotherapp
+    team: group:default/devgroup1
+    build-namespace: yetanotherapp-build
+    size: small
+    environment: dev
+    goldilocks.fairwinds.com/enabled: "true"
+    argocd.argoproj.io/managed-by: yetanotherapp-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: yetanotherapp-qa
+  labels:
+    app : yetanotherapp
+    team: group:default/devgroup1
+    build-namespace: yetanotherapp-build
+    size: small
+    environment: qa
+    goldilocks.fairwinds.com/enabled: "true"
+    argocd.argoproj.io/managed-by: yetanotherapp-build
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: yetanotherapp-prod
+  labels:
+    app : yetanotherapp
+    team: group:default/devgroup1
+    build-namespace: yetanotherapp-build
+    size: small
+    environment: prod
+    goldilocks.fairwinds.com/enabled: "true"
+    argocd.argoproj.io/managed-by: yetanotherapp-build
